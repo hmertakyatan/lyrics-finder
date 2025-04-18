@@ -6,6 +6,10 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(),]
+    tailwindcss()],
+    base: '/lyrics-finder/',
+    build: {
+      outDir: 'dist',
+    },
   
 })
