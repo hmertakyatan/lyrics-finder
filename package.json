@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hmertakyatan.github.io",
+  "homepage": "https://hmertakyatan.github.io/lyrics-finder",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
